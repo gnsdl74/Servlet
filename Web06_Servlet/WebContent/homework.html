@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>설문 조사페이지</title>
+</head>
+<body>
+	<h1>설문 조사</h1>
+
+	<form action="survey" method="get">
+		<label>이름:&nbsp;<input type="text" name="name" placeholder="이름 입력" /></label><br>
+		<label>나이:&nbsp;<input type="number" name="age" placeholder="나이 입력" /></label><br>
+		<label>선호게임장르:&nbsp;<select name="game">
+				<option>MMORPG</option>
+				<option>FPS</option>
+				<option>Puzzle</option>
+		</select>
+		</label><br>
+		<hr>
+		<input type="submit" value="제출"/>
+	</form>
+</body>
+</html>
